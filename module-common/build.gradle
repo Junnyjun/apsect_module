@@ -1,0 +1,8 @@
+bootJar { enabled = false }
+jar { enabled = true }
+
+dependencies {
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    implementation group: 'com.google.guava', name: 'guava', version: '30.1.1-jre'
+}
